@@ -1,0 +1,12 @@
+[
+  {
+    "file": "cooking-games.js",
+    "old": "  if (g.complete) cookingInstruction.textContent = `できた！ ${\"★\".repeat(Math.max(1, 3 - g.mistakes))} 「作業を完了」でキッチンに戻ろう。`;",
+    "new": "  if (g.complete) cookingInstruction.textContent = \"「作業を完了」でキッチンに戻ろう。\";"
+  },
+  {
+    "file": "advanced-games.js",
+    "old": "    cookingInstruction.textContent = \"飾り付けできた！ 並べ直してもOK。「作業を完了」で完成！\";",
+    "new": "    cookingInstruction.textContent = \"並べ直してもOK。「作業を完了」で完成！\";"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "cooking-games.js",
+    "old": "      cookingLabel(vegetable.name, vegetable.x, vegetable.y + 54, 17);",
+    "new": ""
+  },
+  {
+    "file": "cooking-games.js",
+    "old": "  cookingLabel(g.complete ? \"全部正しい順番で入った！\" : \"にんじん → じゃがいも → たまねぎ\", 440, 423, 20);",
+    "new": "  if (g.complete) cookingLabel(\"全部正しい順番で入った！\", 440, 423, 20);"
+  },
+  {
+    "file": "cooking-games.js",
+    "old": "  cookingLabel(\"このゲームでの順番\", 440, 452, 15);",
+    "new": ""
+  },
+  {
+    "file": "sketch.js",
+    "old": "硬い野菜からクリックして鍋へ入れよう。にんじん → じゃがいも → たまねぎ。全部入れると炒めて水を加え、柔らかく煮るところまで完了します。",
+    "new": "硬い野菜からクリックして鍋へ入れよう。全部入れると炒めて水を加え、柔らかく煮るところまで完了します。"
+  }
+]

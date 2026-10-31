@@ -1,0 +1,22 @@
+[
+  {
+    "file": "cooking-games.js",
+    "old": "  feedback(\"手を動かしてみよう\", step.title, \"マウスや指で道具を動かそう。操作を終えたら「作業を完了」で手順が進みます。\", \"\");",
+    "new": "  feedback(\"手を動かしてみよう\", step.title, \"\", \"\");"
+  },
+  {
+    "file": "sketch.js",
+    "old": "  feedback(\"いいね！\", step.title, step.reason, \"success\");",
+    "new": "  feedback(\"いいね！\", step.title, \"\", \"success\");"
+  },
+  {
+    "file": "sketch.js",
+    "old": "  feedback(\"チャレンジ完了\", \"すべての工程、できあがり！\", \"作業記録を見て、どんな順番で料理を作ったか振り返ってみよう。\", \"success\");",
+    "new": "  feedback(\"チャレンジ完了\", \"すべての工程、できあがり！\", \"\", \"success\");"
+  },
+  {
+    "file": "sketch.js",
+    "old": "  ui[\"feedback-text\"].textContent = text;",
+    "new": "  ui[\"feedback-text\"].textContent = text;\n  ui[\"feedback-text\"].hidden = !text;"
+  }
+]
